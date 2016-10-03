@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Click(R.id.file_down_bn)
     void goFileDown(){
-        startActivity(new Intent(MainActivity.this,FileDownBar.class));
+        startActivity(new Intent(MainActivity.this, DownBarActivity.class));
     }
 
 
